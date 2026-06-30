@@ -1,0 +1,47 @@
+# FastAPI and Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Authentication and Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Data Validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Templates and File Handling
+jinja2==3.1.2
+aiofiles==23.2.1
+
+# Image Processing
+pillow==10.1.0
+
+# HTTP Requests
+requests==2.31.0
+
+# Azure Cloud Storage
+azure-storage-blob==12.19.0
+
+# Environment Variables
+python-dotenv==1.0.0
+python-decouple==3.8
+
+# Email Services
+sendgrid==6.11.0
+
+# AI/ML Dependencies for ColorIQ Model
+torch==2.1.0
+torchvision==0.16.0
+numpy==1.24.3
+matplotlib==3.8.0
+
+# Additional ML utilities
+tqdm==4.66.1
